@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  }
+
+body {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+.logo {
+    cursor: pointer;
+    width: 131px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-right: 400px;
+}
+
+.spotify-logo {
+    cursor: pointer;
+    width: 132px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-right: 10px;
+    display: flex;
+  }
+
+.nav {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: space-around;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+
+li {
+padding: 20px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.right-nav{
+    display: flex;
+}
+
+#top-nav {
+display: flex;
+list-style-type: none;
+padding-top: 10px;
+}
+
+header { 
+  height: 805px;
+  background-color: orange;
+  background: linear-gradient(#f037a5 -60%,#fae62d 140%);
+}
+.hero-img {
+  height: inherit;
+  margin: 0 auto;
+  background-image: url(https://www.scdn.co/i/home/hero-burst.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header .container {
+  flex-direction: column;
+  justify-content: center;
+}
+
+#title {
+  width: inherit;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: -.04em;
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+#description {
+    font-size: 18px;
+text-align: center;
+padding-bottom: 10px;
+}
+
+.btn-spotify {
+  width: 260px;
+  margin: 0 auto;
+  color: white;
+  background-color: #1db954;
+  padding: 18px 42px 18px;
+  border: 0px;
+  border-radius: 500px;
+  margin-top: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 2px;
+  transition-duration: .3s;
+}
+.btn-spotify:hover {
+  cursor: pointer;
+  background-color: #1ed760;
+}
+footer { 
+  height: 538px; 
+  background-color: black; 
+}
+.container {
+  margin: 0 auto;
+  height: inherit; /* get parent height */
+  width: 1170px;   /* add 970px for smaller screen */
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.column-1 {
+padding: 20px;
+padding-left: 60px;
+}
+
+.column-2 {
+padding: 20px;
+padding-left: 60px;
+}
+
+.column-3 {
+padding: 20px;
+padding-left: 60px;
+}
+
+.social-buttons {
+    padding: 20px;
+    padding-left: 200px;
+}
+
+.column {
+
+}
